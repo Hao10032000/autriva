@@ -1,0 +1,336 @@
+@font-face {
+  font-family: 'carus';
+  src:  url('fonts/carus.eot?dqaigm');
+  src:  url('fonts/carus.eot?dqaigm#iefix') format('embedded-opentype'),
+    url('fonts/carus.ttf?dqaigm') format('truetype'),
+    url('fonts/carus.woff?dqaigm') format('woff'),
+    url('fonts/carus.svg?dqaigm#carus') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-carus-"], [class*=" icon-carus-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'carus' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-carus-delete:before {
+  content: "\e910";
+}
+.icon-carus-icon-check:before {
+  content: "\e917";
+}
+.icon-carus-icon-list:before {
+  content: "\e91f";
+}
+.icon-carus-icon-star:before {
+  content: "\e921";
+}
+.icon-carus-listings:before {
+  content: "\e934";
+}
+.icon-carus-reviewss:before {
+  content: "\e93c";
+}
+.icon-carus-aalendardots:before {
+  content: "\e900";
+}
+.icon-carus-arright:before {
+  content: "\e901";
+}
+.icon-carus-arrowcircleright:before {
+  content: "\e902";
+}
+.icon-carus-arrowlineup:before {
+  content: "\e903";
+}
+.icon-carus-arrowright-1:before {
+  content: "\e904";
+}
+.icon-carus-arrowright:before {
+  content: "\e905";
+}
+.icon-carus-arrowsleftright:before {
+  content: "\e906";
+}
+.icon-carus-call:before {
+  content: "\e907";
+}
+.icon-carus-car:before {
+  content: "\e908";
+}
+.icon-carus-caretdown:before {
+  content: "\e909";
+}
+.icon-carus-caretdown1:before {
+  content: "\e90a";
+}
+.icon-carus-carus:before {
+  content: "\e90b";
+}
+.icon-carus-chatcircledots:before {
+  content: "\e90c";
+}
+.icon-carus-chatcircletexts:before {
+  content: "\e90d";
+}
+.icon-carus-chattext:before {
+  content: "\e90e";
+}
+.icon-carus-check:before {
+  content: "\e90f";
+}
+.icon-carus-checkcircle:before {
+  content: "\e911";
+}
+.icon-carus-chev-up:before {
+  content: "\e912";
+}
+.icon-carus-circle:before {
+  content: "\e913";
+}
+.icon-carus-clock:before {
+  content: "\e914";
+}
+.icon-carus-close:before {
+  content: "\e915";
+}
+.icon-carus-coupe:before {
+  content: "\e916";
+}
+.icon-carus-diamondsfour:before {
+  content: "\e918";
+}
+.icon-carus-dribbbleLogo:before {
+  content: "\e919";
+}
+.icon-carus-engine:before {
+  content: "\e91a";
+}
+.icon-carus-envelopesimple:before {
+  content: "\e91b";
+}
+.icon-carus-envelopesimple1:before {
+  content: "\e91c";
+}
+.icon-carus-facebook:before {
+  content: "\e91d";
+}
+.icon-carus-facebooklogo:before {
+  content: "\e91e";
+}
+.icon-carus-gaspump:before {
+  content: "\e920";
+}
+.icon-carus-hatchback:before {
+  content: "\e922";
+}
+.icon-carus-heart:before {
+  content: "\e923";
+}
+.icon-carus-heartstraight:before {
+  content: "\e924";
+}
+.icon-carus-hybrid:before {
+  content: "\e925";
+}
+.icon-carus-icon1:before {
+  content: "\e926";
+}
+.icon-carus-icon2:before {
+  content: "\e927";
+}
+.icon-carus-icon3:before {
+  content: "\e928";
+}
+.icon-carus-icon4:before {
+  content: "\e929";
+}
+.icon-carus-icon5:before {
+  content: "\e92a";
+}
+.icon-carus-icon6:before {
+  content: "\e92b";
+}
+.icon-carus-icon7:before {
+  content: "\e92c";
+}
+.icon-carus-icon8:before {
+  content: "\e92d";
+}
+.icon-carus-icon9:before {
+  content: "\e92e";
+}
+.icon-carus-icon10:before {
+  content: "\e92f";
+}
+.icon-carus-icon11:before {
+  content: "\e930";
+}
+.icon-carus-icon12:before {
+  content: "\e931";
+}
+.icon-carus-icon13:before {
+  content: "\e932";
+}
+.icon-carus-icon14:before {
+  content: "\e933";
+}
+.icon-carus-imagessquare:before {
+  content: "\e935";
+}
+.icon-carus-in:before {
+  content: "\e936";
+}
+.icon-carus-instagram:before {
+  content: "\e937";
+}
+.icon-carus-instagramlogo:before {
+  content: "\e938";
+}
+.icon-carus-line:before {
+  content: "\e939";
+}
+.icon-carus-linkedinlogo:before {
+  content: "\e93a";
+}
+.icon-carus-list:before {
+  content: "\e93b";
+}
+.icon-carus-manual:before {
+  content: "\e93d";
+}
+.icon-carus-map:before {
+  content: "\e93e";
+}
+.icon-carus-mappinline:before {
+  content: "\e93f";
+}
+.icon-carus-maptrifold:before {
+  content: "\e940";
+}
+.icon-carus-microsoftteamslogo:before {
+  content: "\e941";
+}
+.icon-carus-minus:before {
+  content: "\e942";
+}
+.icon-carus-pencil:before {
+  content: "\e943";
+}
+.icon-carus-pencilline:before {
+  content: "\e944";
+}
+.icon-carus-pending:before {
+  content: "\e945";
+}
+.icon-carus-phone:before {
+  content: "\e946";
+}
+.icon-carus-phonecall:before {
+  content: "\e947";
+}
+.icon-carus-pinterestlogo:before {
+  content: "\e948";
+}
+.icon-carus-plus:before {
+  content: "\e949";
+}
+.icon-carus-power:before {
+  content: "\e94a";
+}
+.icon-carus-printer:before {
+  content: "\e94b";
+}
+.icon-carus-profile:before {
+  content: "\e94c";
+}
+.icon-carus-quote:before {
+  content: "\e94d";
+}
+.icon-carus-quote2:before {
+  content: "\e94e";
+}
+.icon-carus-roadhorizon:before {
+  content: "\e950";
+}
+.icon-carus-search:before {
+  content: "\e951";
+}
+.icon-carus-sexx:before {
+  content: "\e952";
+}
+.icon-carus-sharefat:before {
+  content: "\e953";
+}
+.icon-carus-shieldcheck:before {
+  content: "\e954";
+}
+.icon-carus-signout:before {
+  content: "\e955";
+}
+.icon-carus-sliders:before {
+  content: "\e956";
+}
+.icon-carus-star:before {
+  content: "\e957";
+}
+.icon-carus-suv:before {
+  content: "\e958";
+}
+.icon-carus-tiktoklogo:before {
+  content: "\e959";
+}
+.icon-carus-torque:before {
+  content: "\e95a";
+}
+.icon-carus-transmission:before {
+  content: "\e95b";
+}
+.icon-carus-trashsimple:before {
+  content: "\e95c";
+}
+.icon-carus-up:before {
+  content: "\e95d";
+}
+.icon-carus-upload:before {
+  content: "\e95e";
+}
+.icon-carus-user:before {
+  content: "\e95f";
+}
+.icon-carus-user1:before {
+  content: "\e960";
+}
+.icon-carus-usercheck:before {
+  content: "\e961";
+}
+.icon-carus-videocamerass:before {
+  content: "\e962";
+}
+.icon-carus-vimeo:before {
+  content: "\e963";
+}
+.icon-carus-x:before {
+  content: "\e964";
+}
+.icon-carus-xlogo:before {
+  content: "\e965";
+}
+.icon-carus-youtube:before {
+  content: "\e966";
+}
+.icon-carus-youtubelogo:before {
+  content: "\e967";
+}

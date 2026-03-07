@@ -1,0 +1,34 @@
+/* ---------------------------------------------------------
+    * Name: Autriva - Car Dealer, Rental & Listing HTML Template
+    * Version: 1.0.0
+    * Author: Themesflat
+    * Author URI: http://www.themesflat.com
+
+	* Abstracts variable
+    
+    * Reset css styles
+
+    * Components
+
+        * Header
+        * Button
+        * Section
+        * Footer
+        * Hover
+        * Slider
+        * Sidebar
+        * Dashboard
+        * Widget
+        * Compare
+        
+    * Responsive
+ ------------------------------------------------------------------------------ */
+
+/*--------- Abstracts variable ---------- */
+@forward "./abstracts/index";
+/*--------- Reset css styles ---------- */
+@forward "./style";
+/*--------- Components ---------- */
+@forward "./component/index";
+/*--------- Responsive ---------- */
+@forward "./responsive";

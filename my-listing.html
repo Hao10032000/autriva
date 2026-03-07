@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Autriva - Car Dealer, Rental & Listing HTML Template</title>
+
+    <meta name="author" content="themesflat.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link rel="stylesheet" href="app/css/font-awesome.css" />
+    <link rel="stylesheet" href="app/css/styles.css" />
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="assets/images/logo/Favicon.png" />
+    <link rel="apple-touch-icon-precomposed" href="assets/images/logo/Favicon.png" />
+</head>
+
+<body class="body">
+
+    <!-- dashboard -->
+    <div class="dashboard-overlay"></div>
+    <aside class="sidebar-dashboard">
+        <div class="db-content db-logo pad-30">
+            <a href="index.html" title="carus">
+                <img class="site-logo" src="assets/images/dashboard/logo.png" alt="carus" />
+            </a>
+        </div>
+
+        <div class="db-content db-author pad-30">
+            <h6 class="db-title">Profile</h6>
+            <div class="author">
+                <div class="avatar">
+                    <img loading="lazy" id="tfre_avatar_thumbnail" src="assets/images/dashboard/avatar.png" alt="admin"
+                        title="admin" />
+                </div>
+                <div class="content">
+                    <div class="name">Account</div>
+                    <div class="author-email">themesflat@gmail...</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="db-content db-list-menu">
+            <h6 class="db-title">Menu</h6>
+            <div class="db-dashboard-menu">
+                <ul>
+                    <li>
+                        <a href="dashboard.html" class="menu-index-1">
+                            <i class="icon-carus-diamondsfour"></i>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="add-listing.html" class="menu-index-2">
+                            <i class="icon-carus-icon1"></i>
+                            Add listing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="my-listing.html" class="menu-index-3 active">
+                            <i class="icon-carus-pencilline"></i>
+                            My listing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="my-favorite.html" class="menu-index-4">
+                            <i class="icon-carus-heartstraight"></i>
+                            My favorite
+                        </a>
+                    </li>
+                    <li>
+                        <a href="message.html " class="menu-index-4">
+                            <i class="icon-carus-envelopesimple"></i>
+                            Message
+                            <span class="count-page">7</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="my-review.html " class="menu-index-6">
+                            <i class="icon-carus-chatcircledots"></i>
+                            Review
+                        </a>
+                    </li>
+                    <li>
+                        <a href="my-profile.html" class="menu-index-6">
+                            <i class="icon-carus-profile"></i>
+                            Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="menu-index-7">
+                            <i class="icon-carus-signout"></i>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+
+    <div id="wrapper-dashboard">
+        <div id="pagee" class="clearfix">
+
+            <!-- Main Header -->
+            <header class="main-header">
+                <!-- Header Lower -->
+                <div class="header-lower">
+                    <div class="container2">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="inner-container flex justify-space align-center">
+                                    <!-- Logo Box -->
+                                    <div class="logo-box flex">
+                                        <div class="logo">
+                                            <a href="index.html"><img src="assets/images/logo/logo.png" alt width="225"
+                                                    height="40" /></a>
+                                        </div>
+                                    </div>
+                                    <div class="nav-outer flex align-center">
+                                        <!-- Main Menu -->
+                                        <nav class="main-menu show navbar-expand-md">
+                                            <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+                                                <ul class="navigation clearfix">
+                                                    <li class="dropdown2 ">
+                                                        <a href="#">Home</a>
+                                                        <ul>
+                                                            <li><a href="index.html">Home Page 01</a></li>
+                                                            <li><a href="home02.html">Home Page 02</a></li>
+                                                            <li><a href="home03.html">Home Page 03</a></li>
+                                                            <li><a href="home04.html">Home Page 04</a></li>
+                                                            <li><a href="home05.html">Home Page 05</a></li>
+                                                            <li><a href="home06.html">Home Page 06</a></li>
+                                                            <li><a href="home07.html">Home Page 07</a></li>
+                                                            <li><a href="home08.html">Home Page 08</a></li>
+                                                            <li><a href="home09.html">Home Page 09</a></li>
+                                                            <li><a href="home10.html">Home Page 10</a></li>
+                                                            <li><a href="home11.html">Home Page 11</a></li>
+                                                            <li><a href="home12.html">Home Page 12</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown2 tfcl-mega-menu">
+                                                        <a href="#">Listing Car</a>
+                                                        <ul>
+                                                            <li class="dropdown2">
+                                                                <a href="#">Listing </a>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="listing-list.html">Listing list</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="listing-grid.html">Listing grid V1</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="listing-grid2.html">Listing grid V2</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="listing-grid-map.html">Listing map V1
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="listing-list-map.html">Listing map
+                                                                            V2</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+
+                                                            <li class="dropdown2">
+                                                                <a href="#">Listing detail</a>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="listing-detail-v1.html">Listing detail
+                                                                            V1</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="listing-detail-v2.html">Listing detail
+                                                                            V2</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="listing-detail-v3.html">Listing detail
+                                                                            V3</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="listing-detail-v4.html">Listing detail
+                                                                            V4</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="listing-detail-v5.html">Listing detail
+                                                                            V5</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="listing-detail-v6.html">Listing detail
+                                                                            V6</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown2 current">
+                                                        <a href="#">Page</a>
+                                                        <ul>
+                                                            <li><a href="about-us.html">About Us</a></li>
+                                                            <li><a href="faq.html">Faq's</a></li>
+                                                            <li><a href="pricing.html">Pricing</a></li>
+                                                            <li><a href="compare.html">Compare</a></li>
+
+                                                            <li class="dropdown2">
+                                                                <a href="#">Dealer</a>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="dealer-listing.html">Dealer listing V1</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="dealer-listing2.html">Dealer listing V2</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="dealer-detail.html">Dealer detail</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="dropdown2">
+                                                                <a href="#">Agents</a>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="sale-agents.html">Sale agents</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="sale-agents-detail.html">Sale agents
+                                                                            detail</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="current">
+                                                                <a href="dashboard.html">Dashboard</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown2">
+                                                        <a href="#">Blog</a>
+                                                        <ul>
+                                                            <li><a href="blog.html">Blog List</a></li>
+                                                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                                                            <li>
+                                                                <a href="blog-detail.html">Blog Detail</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="contact.html">Contact</a></li>
+                                                </ul>
+                                            </div>
+                                        </nav>
+                                        <a href="#" class="header-search-icon flex items-center justify-center closed">
+                                            <i class="icon-carus-search search-icon fs-18"></i>
+                                        </a>
+                                        <!-- Main Menu End-->
+                                    </div>
+                                    <div class="header-account flex align-center">
+                                        <a href="#" class="box-avatar dropdown-toggle" data-bs-toggle="dropdown">
+                                            <div class="avatar avt-40 round">
+                                                <img src="assets/images/dashboard/agent1.jpg" alt="avt" />
+                                            </div>
+                                            <p class="name">
+                                                Themesflat <i class="fal fa-angle-down"></i>
+                                            </p>
+                                        </a>
+                                        <div class="dropdown-menu dashboard-menu">
+                                            <a class="dropdown-item" href="dashboard.html">
+                                                <i class="icon-carus-diamondsfour"></i>
+                                                Dashboard</a>
+                                                <a class="dropdown-item" href="dashboard.html">
+                                               <i class="icon-carus-icon1"></i>
+                                                Add listing</a>
+                                            <a class="dropdown-item" href="my-listing.html">
+                                               <i class="icon-carus-pencilline"></i>
+                                                My Listing</a>
+                                            <a class="dropdown-item" href="my-favorites.html">
+                                                <i class="icon-carus-heartstraight"></i>
+                                                My Favorites</a>
+                                            <a class="dropdown-item" href="message.html">
+                                                <i class="icon-carus-envelopesimple"></i>
+                                                Message</a>
+                                            <a class="dropdown-item" href="my-review.html">
+                                                <i class="icon-carus-chatcircledots"></i>
+                                                My Reviews</a>
+                                            <a class="dropdown-item" href="my-profile.html">
+                                                <i class="icon-carus-profile"></i>
+                                                Profile</a>
+                                            <a class="dropdown-item" href="index.html">
+                                                <i class="icon-carus-signout"></i>
+                                                Logout</a>
+                                        </div>
+                                        <div class="flat-bt-top">
+                                            <a class="sc-button" href="add-listing.html">
+                                                <span>Sell my car</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="mobile-nav-toggler mobile-button">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Header Lower -->
+
+                <!-- Mobile Menu  -->
+                <div class="close-btn">
+                    <span class="icon flaticon-cancel-1"></span>
+                </div>
+                <div class="mobile-menu">
+                    <div class="menu-backdrop"></div>
+                    <nav class="menu-box">
+                        <div class="header-account-menu flex align-center">
+                            <a href="#" class="box-avatar dropdown-toggle" >
+                                <div class="avatar round">
+                                    <img src="assets/images/dashboard/agent1.jpg" alt="avt" height="48" width="48" />
+                                </div>
+                                <div class="content">
+                                    <p class="fs-12 fw-4">Your account</p>
+                                    <p class="name">
+                                        Themesflat <i class="fal fa-angle-down"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="bottom-canvas">
+                            <div class="menu-outer"></div>
+                            <div class="button-mobi-sell">
+                                <a class="sc-button btn-icon center" href="add-listing.html">
+                                    <span>Sell my car</span>
+                                </a>
+                            </div>
+                            <div class="conatct-us">
+                                <div class="fs-18 fw-6 title">Contact us</div>
+                                <div class="information">
+                                    <div class="icon-box-footer flex-three">
+                                        <div class="icon">
+                                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M32.2489 23.062C31.2489 22.0628 29.5052 22.0628 28.5043 23.062L26.8764 24.6903C25.781 25.7862 23.8485 25.7862 22.7531 24.6903L15.3081 17.2457C14.7577 16.6957 14.4543 15.9628 14.4543 15.1837C14.4543 14.407 14.7577 13.6741 15.3081 13.1241L16.9368 11.4957C17.9693 10.4637 17.9693 8.78241 16.9368 7.75033L11.626 2.43866C11.6256 2.43866 11.6252 2.43866 11.6247 2.43658C10.5927 1.41116 8.91432 1.40908 7.88182 2.43866L4.73474 5.58783C2.7564 7.56574 1.66724 10.1932 1.66724 12.9899C1.66724 15.7891 2.7564 18.4166 4.73432 20.3949L19.6039 35.2641C21.5818 37.2424 24.2114 38.3316 27.0085 38.3316C29.8056 38.3316 32.4356 37.2424 34.4131 35.2641L37.5606 32.1174C38.5922 31.0853 38.5922 29.4062 37.5606 28.3741L32.2489 23.062ZM9.47349 4.03408C9.55057 3.95699 9.65182 3.91741 9.75307 3.91741C9.85474 3.91741 9.95599 3.95699 10.0331 4.03408L15.3435 9.34408C15.4977 9.49824 15.4977 9.74908 15.3435 9.90283L13.7147 11.5312C13.616 11.6299 13.5247 11.7337 13.4352 11.8387L7.55224 5.95533L9.47349 4.03408ZM21.1972 33.6707L6.32724 18.8016C4.77515 17.2503 3.92057 15.1862 3.92057 12.9899C3.92057 10.9712 4.65182 9.06741 5.97724 7.56658L12.356 13.9453C12.2577 14.3466 12.201 14.7603 12.201 15.1837C12.201 16.5657 12.7389 17.8641 13.7152 18.8387L21.1589 26.2837C22.4256 27.5495 24.3139 27.9878 26.0156 27.6066L32.4306 34.0199C29.2802 36.7624 24.1781 36.6537 21.1972 33.6707ZM35.9668 30.5241L34.0435 32.447L28.1589 26.5632C28.2652 26.4741 28.3706 26.3832 28.4702 26.2837L30.0977 24.6553C30.2289 24.5232 30.5243 24.5232 30.6552 24.6553L35.9664 29.9674C36.1202 30.1212 36.1202 30.3699 35.9668 30.5241Z"
+                                                    fill="#24272C" />
+                                                <path
+                                                    d="M23.3716 16.2021H23.5507V18.0859C23.5507 18.8055 23.977 19.4546 24.6366 19.7409C24.8682 19.8421 25.1124 19.8905 25.3549 19.8905C25.8045 19.8905 26.2474 19.7234 26.5891 19.4042L30.0036 16.2026H34.657C36.5953 16.2026 38.1724 14.6271 38.1724 12.6884V5.59132C38.1724 3.65257 36.5953 2.07715 34.657 2.07715H23.3716C21.4332 2.07715 19.8561 3.65257 19.8561 5.59132V12.688C19.8561 14.6267 21.4332 16.2021 23.3716 16.2021ZM22.1095 5.59132C22.1095 4.8959 22.6753 4.33048 23.3716 4.33048H34.6574C35.3532 4.33048 35.9195 4.8959 35.9195 5.59132V12.688C35.9195 13.3834 35.3532 13.9488 34.6574 13.9488H29.5586C29.272 13.9488 28.997 14.0588 28.7878 14.2526L25.8041 17.0517V15.0755C25.8041 14.4526 25.2995 13.9488 24.6774 13.9488H23.3716C22.6757 13.9488 22.1095 13.3834 22.1095 12.688V5.59132Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M25.7893 8.6049H32.2402C32.8622 8.6049 33.3668 8.10115 33.3668 7.47823C33.3668 6.85531 32.8622 6.35156 32.2402 6.35156H25.7893C25.1668 6.35156 24.6627 6.85531 24.6627 7.47823C24.6627 8.10073 25.1672 8.6049 25.7893 8.6049Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M25.7893 11.8285H32.2401C32.8622 11.8285 33.3668 11.3248 33.3668 10.7019C33.3668 10.0789 32.8622 9.5752 32.2401 9.5752H25.7893C25.1668 9.5752 24.6626 10.0789 24.6626 10.7019C24.6626 11.3248 25.1672 11.8285 25.7893 11.8285Z"
+                                                    fill="#405FF2" />
+                                            </svg>
+                                        </div>
+                                        <div class="content">
+                                            <p class="fs-14 fw-4">Phone:</p>
+                                            <div class="sub fs-18 fw-6">(239) 555-0108</div>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box-footer flex-three">
+                                        <div class="icon">
+                                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M33.8681 1.79492H18.0939C15.6314 1.79492 13.6281 3.79784 13.6281 6.26117V14.192H6.13015C3.66932 14.1924 1.66724 16.1953 1.66724 18.6562V28.5728C1.66724 31.0337 3.66932 33.037 6.13015 33.037H6.8289V36.1253C6.8289 36.9641 7.3064 37.6949 8.07515 38.0295C8.34265 38.1462 8.62599 38.2033 8.90682 38.2033C9.42265 38.2033 9.93182 38.0116 10.3281 37.6441L15.2327 33.037H21.9089C24.3706 33.037 26.3731 31.0341 26.3731 28.5728V22.1412L29.6764 25.2358C30.0689 25.6058 30.5789 25.7991 31.096 25.7991C31.3739 25.7991 31.6547 25.742 31.9202 25.6274C32.6793 25.2995 33.1702 24.5512 33.1702 23.7233V20.6437H33.8685C36.3306 20.6441 38.3339 18.6408 38.3339 16.1778V6.26117C38.3339 3.79826 36.3306 1.79492 33.8681 1.79492ZM21.9089 30.7828H14.7868C14.5002 30.7828 14.2239 30.8928 14.0152 31.0887L9.08307 35.7224V31.9099C9.08307 31.287 8.57849 30.7828 7.95599 30.7828H6.13015C4.91224 30.7828 3.9214 29.7924 3.9214 28.5728V18.6562C3.9214 17.4366 4.91224 16.4462 6.13015 16.4462H13.6418C13.7818 18.7841 15.7222 20.6441 18.0939 20.6441H24.1185V28.5728C24.1189 29.7924 23.1272 30.7828 21.9089 30.7828ZM36.0797 16.1778C36.0797 17.3974 35.0877 18.3899 33.8681 18.3899H32.0427C31.4202 18.3899 30.9156 18.8941 30.9156 19.517V23.3099C30.9156 23.3099 26.0322 18.727 26.0231 18.7183L25.9997 18.6962L25.9968 18.6995L25.991 18.6941C25.7822 18.4983 25.5064 18.3903 25.2202 18.3903H18.0939C16.8743 18.3903 15.8822 17.3974 15.8822 16.1783V16.1762H15.8906L15.8822 6.26201C15.8822 5.04242 16.8743 4.04992 18.0939 4.04992H33.8681C35.0877 4.04992 36.0797 5.04284 36.0797 6.26201V16.1778Z"
+                                                    fill="#24272C" />
+                                                <path
+                                                    d="M30.4891 7.76953H21.4733C20.8508 7.76953 20.3462 8.2737 20.3462 8.89661C20.3462 9.51953 20.8508 10.0237 21.4733 10.0237H30.4895C31.112 10.0237 31.6166 9.51953 31.6166 8.89661C31.6166 8.2737 31.1116 7.76953 30.4891 7.76953Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M30.4891 12.2783H21.4733C20.8508 12.2783 20.3462 12.7825 20.3462 13.4054C20.3462 14.0283 20.8508 14.5325 21.4733 14.5325H30.4895C31.112 14.5325 31.6166 14.0283 31.6166 13.4054C31.6166 12.7825 31.1116 12.2783 30.4891 12.2783Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M9.5215 22.5157C9.3865 22.5599 9.27359 22.6499 9.16109 22.7403C8.95817 22.9649 8.82275 23.2599 8.82275 23.5524C8.82275 23.8449 8.95775 24.1378 9.16109 24.3403C9.3865 24.5649 9.65692 24.6794 9.94984 24.6794C10.1073 24.6794 10.2657 24.6332 10.4007 24.589C10.5361 24.5428 10.6486 24.4524 10.7611 24.3403C10.964 24.1378 11.0994 23.8449 11.0994 23.5524C11.0994 23.2599 10.964 22.9644 10.7611 22.7403C10.4457 22.4478 9.94984 22.3353 9.5215 22.5157Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M14.909 22.5138C14.4807 22.3334 13.9848 22.4455 13.6694 22.7384C13.4665 22.963 13.354 23.258 13.354 23.5505C13.354 23.843 13.4665 24.1359 13.6694 24.3384C13.7819 24.4505 13.8948 24.5409 14.0298 24.5872C14.1878 24.6313 14.3228 24.6776 14.4807 24.6776C14.774 24.6776 15.0444 24.563 15.2698 24.3384C15.4728 24.1359 15.6082 23.843 15.6082 23.5505C15.6082 23.258 15.4728 22.9626 15.2698 22.7384C15.1569 22.6484 15.0444 22.558 14.909 22.5138Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M19.417 22.5146C19.1466 22.4001 18.8308 22.4001 18.5379 22.5146C18.4029 22.5588 18.2899 22.6488 18.1774 22.7392C17.9745 22.9638 17.8391 23.2588 17.8391 23.5513C17.8391 23.8438 17.9741 24.1367 18.1774 24.3392C18.4029 24.5638 18.6733 24.6784 18.9666 24.6784C19.1241 24.6784 19.282 24.6321 19.4174 24.588C19.5529 24.5417 19.6654 24.4513 19.7783 24.3392C19.9812 24.1367 20.0937 23.8438 20.0937 23.5513C20.0937 23.2588 19.9808 22.9634 19.7783 22.7392C19.6649 22.6492 19.5524 22.5588 19.417 22.5146Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M7.70911 11.1497H9.96328C10.5858 11.1497 11.0904 10.6455 11.0904 10.0226C11.0904 9.39967 10.5858 8.89551 9.96328 8.89551H7.70911C7.08661 8.89551 6.58203 9.39967 6.58203 10.0226C6.58161 10.6455 7.0862 11.1497 7.70911 11.1497Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M32.5023 29.1826H30.2482C29.6257 29.1826 29.1211 29.6868 29.1211 30.3097C29.1211 30.9326 29.6257 31.4368 30.2482 31.4368H32.5023C33.1248 31.4368 33.6294 30.9326 33.6294 30.3097C33.6294 29.6868 33.1248 29.1826 32.5023 29.1826Z"
+                                                    fill="#405FF2" />
+                                            </svg>
+                                        </div>
+                                        <div class="content">
+                                            <p class="fs-14 fw-4">Email us:</p>
+                                            <div class="sub fs-18 fw-6">
+                                                <a href="mailto:carus@support.com">carus@support.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box-footer flex-three">
+                                        <div class="icon">
+                                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M33.6863 22.3985H20.9525V9.79848C20.9525 9.16764 20.4413 8.65723 19.8113 8.65723H2.86836C2.23795 8.65723 1.72711 9.16764 1.72711 9.79848V37.1922C1.72711 37.8231 2.23795 38.3335 2.86836 38.3335H19.8113H33.6863C34.3167 38.3335 34.8275 37.8231 34.8275 37.1922V23.5397C34.8275 22.9089 34.3167 22.3985 33.6863 22.3985ZM18.6696 36.0506H4.00961V10.9397H18.6696V36.0506ZM32.5446 36.0506H20.9525V24.6814H32.5446V36.0506Z"
+                                                    fill="#24272C" />
+                                                <path
+                                                    d="M25.385 29.3089H28.1125C28.7429 29.3089 29.2542 28.7984 29.2542 28.1676C29.2542 27.5368 28.7429 27.0264 28.1125 27.0264H25.385C24.7546 27.0264 24.2438 27.5368 24.2438 28.1676C24.2434 28.7984 24.7546 29.3089 25.385 29.3089Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M28.1125 31.1279H25.385C24.7546 31.1279 24.2438 31.6383 24.2438 32.2692C24.2438 32.9 24.755 33.4104 25.385 33.4104H28.1125C28.7429 33.4104 29.2542 32.9 29.2542 32.2692C29.2542 31.6383 28.7429 31.1279 28.1125 31.1279Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M13.5137 30.2718H15.2529C15.8833 30.2718 16.3942 29.7613 16.3942 29.1305C16.3942 28.4997 15.8829 27.9893 15.2529 27.9893H13.5137C12.8833 27.9893 12.3721 28.4997 12.3721 29.1305C12.3725 29.7613 12.8833 30.2718 13.5137 30.2718Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M7.42622 30.2718H9.16581C9.79622 30.2718 10.3071 29.7613 10.3071 29.1305C10.3071 28.4997 9.79581 27.9893 9.16581 27.9893H7.42622C6.79581 27.9893 6.28497 28.4997 6.28497 29.1305C6.28456 29.7613 6.79581 30.2718 7.42622 30.2718Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M13.5137 16.1829H15.2529C15.8833 16.1829 16.3942 15.6725 16.3942 15.0416C16.3942 14.4108 15.8829 13.9004 15.2529 13.9004H13.5137C12.8833 13.9004 12.3721 14.4108 12.3721 15.0416C12.3725 15.6725 12.8833 16.1829 13.5137 16.1829Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M7.42622 16.1829H9.16581C9.79622 16.1829 10.3071 15.6725 10.3071 15.0416C10.3071 14.4108 9.79581 13.9004 9.16581 13.9004H7.42622C6.79581 13.9004 6.28497 14.4108 6.28497 15.0416C6.28456 15.6725 6.79581 16.1829 7.42622 16.1829Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M13.5137 20.8782H15.2529C15.8833 20.8782 16.3942 20.3678 16.3942 19.737C16.3942 19.1061 15.8829 18.5957 15.2529 18.5957H13.5137C12.8833 18.5957 12.3721 19.1061 12.3721 19.737C12.3725 20.3678 12.8833 20.8782 13.5137 20.8782Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M7.42622 20.8782H9.16581C9.79622 20.8782 10.3071 20.3678 10.3071 19.737C10.3071 19.1061 9.79581 18.5957 9.16581 18.5957H7.42622C6.79581 18.5957 6.28497 19.1061 6.28497 19.737C6.28456 20.3678 6.79581 20.8782 7.42622 20.8782Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M13.5137 25.5755H15.2529C15.8833 25.5755 16.3942 25.0651 16.3942 24.4342C16.3942 23.8034 15.8829 23.293 15.2529 23.293H13.5137C12.8833 23.293 12.3721 23.8034 12.3721 24.4342C12.3725 25.0651 12.8833 25.5755 13.5137 25.5755Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M7.42622 25.5755H9.16581C9.79622 25.5755 10.3071 25.0651 10.3071 24.4342C10.3071 23.8034 9.79581 23.293 9.16581 23.293H7.42622C6.79581 23.293 6.28497 23.8034 6.28497 24.4342C6.28456 25.0651 6.79581 25.5755 7.42622 25.5755Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M32.5129 1.83119C30.3038 1.36286 28.0496 1.90911 26.3288 3.30702C24.6079 4.70494 23.6213 6.77786 23.6213 8.99411C23.6213 11.0895 24.5163 13.0783 26.0809 14.4716L28.9979 18.3283C29.4642 18.9437 30.1746 19.2979 30.9471 19.2979C31.7196 19.2979 32.43 18.9433 32.8954 18.3283L35.8125 14.4716C37.7796 12.7237 38.6434 10.1312 38.125 7.50952C37.57 4.69786 35.3146 2.41536 32.5129 1.83119ZM34.2296 12.8237C34.1679 12.8749 31.075 16.9499 31.075 16.9499C31.075 16.952 30.9013 16.9499 30.8396 16.9499C30.8267 16.9499 30.8188 16.9499 30.8188 16.9499C30.8188 16.9499 27.7263 12.8749 27.6646 12.8237C26.5459 11.8608 25.9042 10.4649 25.9042 8.99369C25.9042 7.46869 26.5838 6.04202 27.7692 5.07661C28.9717 4.10036 30.4913 3.73911 32.0471 4.06452C33.9634 4.46577 35.5063 6.02619 35.8863 7.95036C36.2509 9.79869 35.6313 11.6199 34.2296 12.8237Z"
+                                                    fill="#405FF2" />
+                                                <path
+                                                    d="M30.9013 5.51367C29.0446 5.51367 27.5338 7.02284 27.5338 8.87992C27.5338 10.737 29.0442 12.2483 30.9013 12.2483C32.7583 12.2483 34.2688 10.7366 34.2688 8.87992C34.2683 7.02284 32.7579 5.51367 30.9013 5.51367ZM30.9013 9.96534C30.3033 9.96534 29.8167 9.47951 29.8167 8.87951C29.8167 8.28201 30.3033 7.79617 30.9013 7.79617C31.4996 7.79617 31.9858 8.28201 31.9858 8.87951C31.9858 9.47951 31.4996 9.96534 30.9013 9.96534Z"
+                                                    fill="#405FF2" />
+                                            </svg>
+                                        </div>
+                                        <div class="content">
+                                            <p class="fs-14 fw-4">Address:</p>
+                                            <div class="fs-18 fw-6 sub">
+                                                1901 Thornridge Cir. Shiloh, Hawaii 81063
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social">
+                                <div class="fs-18 fw-6 title">Follow us</div>
+                                <div class="icon-social box-3">
+                                    <a href="#"><i class="icon-carus-facebook"></i></a>
+                                    <a href="#"><i class="icon-carus-in"></i></a>
+                                    <a href="#"><i class="icon-carus-x"></i></a>
+                                    <a href="#"><i class="icon-carus-instagram"></i></a>
+                                    <a href="#"><i class="icon-carus-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- End Mobile Menu -->
+            </header>
+            <!-- End Main Header -->
+
+            <!-- Bottom -->
+        </div>
+
+        <div id="themesflat-content">
+            <div class="dashboard-toggle">Show DashBoard</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="content-area">
+                            <main id="main" class="main-content">
+                                <div class="tfcl-dashboard">
+                                    <h1 class="admin-title mb-3">My listing</h1>
+
+                                    <div class="tfcl-dashboard-middle mt-2">
+                                        <div class="row">
+                                            <div class="tfcl-dashboard-middle-left col-md-12">
+                                                <div class="tfcl-dashboard-listing">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-6 mb-2">
+                                                            <div class="group-input-icon search">
+                                                                <input type="text" name="title_search" id="title_search"
+                                                                    value placeholder="Search...">
+                                                                <span class="datepicker-icon">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                        height="18" viewBox="0 0 18 18" fill="none">
+                                                                        <path
+                                                                            d="M15.7506 15.7506L11.8528 11.8528M11.8528 11.8528C12.9078 10.7979 13.5004 9.36711 13.5004 7.87521C13.5004 6.38331 12.9078 4.95252 11.8528 3.89759C10.7979 2.84265 9.36711 2.25 7.87521 2.25C6.38331 2.25 4.95252 2.84265 3.89759 3.89759C2.84265 4.95252 2.25 6.38331 2.25 7.87521C2.25 9.36711 2.84265 10.7979 3.89759 11.8528C4.95252 12.9078 6.38331 13.5004 7.87521 13.5004C9.36711 13.5004 10.7979 12.9078 11.8528 11.8528Z"
+                                                                            stroke="#B6B6B6" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round"></path>
+                                                                    </svg>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-6 mb-2">
+                                                            <div class="group-input-icon">
+                                                                <input type="text" id="from-date"
+                                                                    class="datetimepicker hasDatepicker"
+                                                                    name="from_date" value placeholder="From Date">
+                                                                <span class="datepicker-icon">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="19"
+                                                                        height="18" viewBox="0 0 19 18" fill="none">
+                                                                        <path
+                                                                            d="M5.5625 2.25V3.9375M13.4375 2.25V3.9375M2.75 14.0625V5.625C2.75 5.17745 2.92779 4.74823 3.24426 4.43176C3.56072 4.11529 3.98995 3.9375 4.4375 3.9375H14.5625C15.0101 3.9375 15.4393 4.11529 15.7557 4.43176C16.0722 4.74823 16.25 5.17745 16.25 5.625V14.0625M2.75 14.0625C2.75 14.5101 2.92779 14.9393 3.24426 15.2557C3.56072 15.5722 3.98995 15.75 4.4375 15.75H14.5625C15.0101 15.75 15.4393 15.5722 15.7557 15.2557C16.0722 14.9393 16.25 14.5101 16.25 14.0625M2.75 14.0625V8.4375C2.75 7.98995 2.92779 7.56073 3.24426 7.24426C3.56072 6.92779 3.98995 6.75 4.4375 6.75H14.5625C15.0101 6.75 15.4393 6.92779 15.7557 7.24426C16.0722 7.56073 16.25 7.98995 16.25 8.4375V14.0625M9.5 9.5625H9.506V9.5685H9.5V9.5625ZM9.5 11.25H9.506V11.256H9.5V11.25ZM9.5 12.9375H9.506V12.9435H9.5V12.9375ZM7.8125 11.25H7.8185V11.256H7.8125V11.25ZM7.8125 12.9375H7.8185V12.9435H7.8125V12.9375ZM6.125 11.25H6.131V11.256H6.125V11.25ZM6.125 12.9375H6.131V12.9435H6.125V12.9375ZM11.1875 9.5625H11.1935V9.5685H11.1875V9.5625ZM11.1875 11.25H11.1935V11.256H11.1875V11.25ZM11.1875 12.9375H11.1935V12.9435H11.1875V12.9375ZM12.875 9.5625H12.881V9.5685H12.875V9.5625ZM12.875 11.25H12.881V11.256H12.875V11.25Z"
+                                                                            stroke="#B6B6B6" stroke-linecap="round"
+                                                                            stroke-linejoin="round"></path>
+                                                                    </svg>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-6 mb-2">
+                                                            <div class="group-input-icon">
+                                                                <input type="text" id="to-date"
+                                                                    class="datetimepicker hasDatepicker" name="to_date"
+                                                                    value placeholder="To Date">
+                                                                <span class="datepicker-icon">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="19"
+                                                                        height="18" viewBox="0 0 19 18" fill="none">
+                                                                        <path
+                                                                            d="M5.5625 2.25V3.9375M13.4375 2.25V3.9375M2.75 14.0625V5.625C2.75 5.17745 2.92779 4.74823 3.24426 4.43176C3.56072 4.11529 3.98995 3.9375 4.4375 3.9375H14.5625C15.0101 3.9375 15.4393 4.11529 15.7557 4.43176C16.0722 4.74823 16.25 5.17745 16.25 5.625V14.0625M2.75 14.0625C2.75 14.5101 2.92779 14.9393 3.24426 15.2557C3.56072 15.5722 3.98995 15.75 4.4375 15.75H14.5625C15.0101 15.75 15.4393 15.5722 15.7557 15.2557C16.0722 14.9393 16.25 14.5101 16.25 14.0625M2.75 14.0625V8.4375C2.75 7.98995 2.92779 7.56073 3.24426 7.24426C3.56072 6.92779 3.98995 6.75 4.4375 6.75H14.5625C15.0101 6.75 15.4393 6.92779 15.7557 7.24426C16.0722 7.56073 16.25 7.98995 16.25 8.4375V14.0625M9.5 9.5625H9.506V9.5685H9.5V9.5625ZM9.5 11.25H9.506V11.256H9.5V11.25ZM9.5 12.9375H9.506V12.9435H9.5V12.9375ZM7.8125 11.25H7.8185V11.256H7.8125V11.25ZM7.8125 12.9375H7.8185V12.9435H7.8125V12.9375ZM6.125 11.25H6.131V11.256H6.125V11.25ZM6.125 12.9375H6.131V12.9435H6.125V12.9375ZM11.1875 9.5625H11.1935V9.5685H11.1875V9.5625ZM11.1875 11.25H11.1935V11.256H11.1875V11.25ZM11.1875 12.9375H11.1935V12.9435H11.1875V12.9375ZM12.875 9.5625H12.881V9.5685H12.875V9.5625ZM12.875 11.25H12.881V11.256H12.875V11.25Z"
+                                                                            stroke="#B6B6B6" stroke-linecap="round"
+                                                                            stroke-linejoin="round"></path>
+                                                                    </svg>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-6 mb-2">
+                                                            <div class="nice-select form-control" tabindex="0"><span
+                                                                    class="current">Select
+                                                                    Status</span>
+                                                                <ul class="list">
+                                                                    <li data-value="/autodeal/dashboard-2/?post_status=default"
+                                                                        class="option selected">Select
+                                                                        Status</li>
+                                                                    <li class="option">
+                                                                        hidden
+                                                                    </li>
+                                                                    <li class="option">
+                                                                        sold
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="tfcl-table-listing">
+                                                        <div class="table-responsive">
+                                                            <div class="controller-sorting mb-3">
+                                                                <span class="result-text fw-7 text-color-2"><b>26</b>results found</span>
+                                                                <div class="sorting-input">
+                                                                    <div class="label">Sort By</div>
+                                                                    <div class="nice-select form-control" tabindex="0">
+                                                                        <span class="current">Newest</span>
+                                                                        <ul class="list">
+                                                                            <li class="option">New</li>
+                                                                            <li class="option"> Old </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <table class="table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Listing</th>
+                                                                        <th>Status</th>
+                                                                        <th>Posting date</th>
+                                                                        <th>Action</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody class="tfcl-table-content">
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item6.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2022 Skoda Slavia 1.0 TSI Ambition BSVI</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-publish">
+                                                                                Approved </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item7.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2017 BMV X1 xDrive 20d xline</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-publish">
+                                                                                Approved </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item8.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2017 BMV X1 xDrive 20d xline</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-pending">
+                                                                                Pending </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item9.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2017 BMV X1 xDrive 20d xline</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-pending">
+                                                                                Pending </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item10.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2017 BMV X1 xDrive 20d xline</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-sold">
+                                                                                Sold </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item11.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2017 BMV X1 xDrive 20d xline</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-sold">
+                                                                                Sold </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item12.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2017 BMV X1 xDrive 20d xline</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-sold">
+                                                                                Sold </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item13.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2017 BMV X1 xDrive 20d xline</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-publish">
+                                                                                Approved </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item14.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2017 BMV X1 xDrive 20d xline</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-publish">
+                                                                                Approved </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item15.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2017 BMV X1 xDrive 20d xline</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-sold">
+                                                                                Sold </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item16.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2017 BMV X1 xDrive 20d xline</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-sold">
+                                                                                Sold </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item17.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2017 BMV X1 xDrive 20d xline</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-sold">
+                                                                                Sold </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item18.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2017 BMV X1 xDrive 20d xline</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-publish">
+                                                                                Approved </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="column-listing">
+                                                                            <div class="tfcl-listing-product">
+                                                                                <a href="listing-detail-v1.html">
+                                                                                    <img src="assets/images/dashboard/car-item19.jpg"
+                                                                                        alt="image">
+                                                                                </a>
+                                                                                <div class="tfcl-listing-summary">
+                                                                                    <h4 class="tfcl-listing-title">
+                                                                                        <a target="_blank"
+                                                                                            href="listing-detail-v1.html">2017 BMV X1 xDrive 20d xline</a>
+                                                                                    </h4>
+                                                                                    <div class="features-text">
+                                                                                       1st owned, automatic transmission, Apple Carplay...
+                                                                                    </div>
+                                                                                    <div class="price">
+                                                                                        <div
+                                                                                            class="inner tfcl-listing-price">
+                                                                                            $73,000
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td class="column-status">
+                                                                            <span
+                                                                                class="tfcl-listing-status status-publish">
+                                                                                Approved </span>
+                                                                        </td>
+                                                                        <td class="column-date">
+                                                                            <div class="tfcl-listing-date">March 22,
+                                                                                2023</div>
+                                                                        </td>
+                                                                        <td class="column-controller">
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/pen.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Edit</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/hide.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Sold</a>
+                                                                            </div>
+                                                                            <div class="inner-controller">
+                                                                                <span class="icon">
+                                                                                    <img src="assets/images/dashboard/trash.svg"
+                                                                                        alt="icon">
+                                                                                </span>
+                                                                                <a href="#"
+                                                                                    class="btn-action tfcl-dashboard-action-edit">Delete</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="tfcl-pagination paging-navigation clearfix">
+                                                            <a class="prev page-numbers" href="#"><i
+                                                                    class="far fa-angle-left"></i></a>
+                                                            <a class="page-numbers" href="#">1</a>
+                                                            <a class="page-numbers" href="#">2</a>
+                                                            <a class="page-numbers current" href="#">3</a>
+                                                            <a class="page-numbers" href="#">4</a>
+                                                            <a class="page-numbers" href="#">...</a>
+                                                            <a class="next page-numbers" href="#"><i
+                                                                    class="far fa-angle-right"></i></a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </main>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Modal Popup Bid -->
+    <div class="wd-find-selects">
+    <form method="post">
+      <div class="form-group-1 search-form relative">
+        <input type="search" class="search-field" id="search-terms" placeholder="Search..." value="" name="s"
+          title="Search for" required="" />
+        <button type="submit" class="btn-search"><i class="icon-carus-search"></i></button>
+      </div>
+    </form>
+    <i class="icon-carus-close icon-close"></i>
+  </div>
+
+    <!-- go top button -->
+    <button id="goTop">
+        <span class="border-progress"></span>
+        <span class="icon-carus-up"></span>
+    </button>
+
+    <!-- /go top button -->
+
+    <!-- Javascript -->
+    <script src="app/js/jquery.min.js"></script>
+    <script src="app/js/jquery.easing.js"></script>
+    <script src="app/js/jquery.nice-select.min.js"></script>
+    <script src="app/js/chart.js"></script>
+    <script src="app/js/bootstrap.min.js"></script>
+    <script src="app/js/main.js"></script>
+    <script src="app/js/wow.min.js"></script>
+     <script src="app/js/shortcodes.js"></script>
+    <script src="app/js/jquery-ui.js"></script>
+    <script src="app/js/dashboard.js"></script>
+
+</body>
+
+</html>

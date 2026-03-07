@@ -1,0 +1,194 @@
+@use "../abstracts/" as *;
+
+/* button 
+--------------------------------------------------*/
+.sc-button {
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: $color-3;
+  padding: 15px 25px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  @include transition3;
+
+  span {
+    color: $color-1;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    text-transform: capitalize;
+    @include transition3;
+    z-index: 2;
+  }
+
+  i {
+    @include transition3;
+    color: $color-1;
+    vertical-align: middle;
+    font-size: 18px;
+    margin-left: 7px;
+    z-index: 2;
+    position: relative;
+  }
+
+  &.style-2 {
+    border: 1px solid $color-6;
+    background-color: transparent;
+
+    span,
+    i {
+      color: $color-2;
+    }
+
+    &:hover {
+
+      span,
+      i {
+        color: $color-1;
+      }
+    }
+  }
+
+  &:hover,
+  &.active {
+    &::after {
+      width: 115%;
+      background-color: $color-2;
+      z-index: 1;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: $color-3;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: -5%;
+    z-index: -1;
+
+  }
+
+  &.btn-55 {
+    padding: 15px 55.5px !important;
+  }
+
+  &.btn-svg {
+
+    svg,
+    i {
+      margin-right: 0;
+    }
+  }
+
+  &.btn-1 {
+    color: $color-2;
+    background-color: transparent;
+    border: 1px solid $color-6;
+    padding: 14px 54.5px;
+
+    span {
+      color: $color-2;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    i {
+      margin-left: 10px;
+      font-size: 15px;
+    }
+
+    &:hover,
+    &.active {
+      background-color: $color-3;
+
+      span,
+      i {
+        color: $color-1;
+      }
+
+      svg,
+      i {
+        animation: 0.3s link-icon2 linear;
+      }
+
+      svg,
+      path {
+        fill: $color-1;
+        stroke: $color-1;
+      }
+    }
+  }
+}
+
+.view-car {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  color: $color-2;
+  border: 1px solid $color-6;
+  padding: 9px 16px;
+  display: flex;
+  align-items: center;
+  @include transition3;
+
+  i {
+    font-size: 20px;
+    margin-left: 6px;
+  }
+
+  &:hover {
+    color: $color-3;
+    border: 1px solid $color-3;
+  }
+}
+
+.link-btn {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17.64px;
+  color: $color-3;
+  display: flex;
+  align-items: center;
+  @include transition3;
+
+  i,
+  svg {
+    font-size: 20px;
+    margin-left: 6px;
+  }
+
+  &:hover,
+  &.active {
+
+    span,
+    i {
+      color: $color-2;
+    }
+
+    svg,
+    path {
+      fill: $color-2;
+      stroke: $color-2;
+    }
+  }
+}
+
+.btn-join {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  padding: 8px 22.5px;
+  border: 1px solid $color-6;
+  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}

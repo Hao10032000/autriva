@@ -1,0 +1,246 @@
+@use "../abstracts/" as *;
+
+/* Footer
+-------------------------------------------------------------- */
+
+#footer {
+  position: relative;
+  color: $color-1;
+  background-color: $bg-color8;
+
+  h3 {
+    color: $color-1;
+    text-transform: capitalize;
+    font-size: 24px;  
+  }
+
+  .footer-information {
+    padding: 43px 0px;
+    border-top: 1px solid $color-13;
+    border-bottom: 1px solid $color-13;
+
+    .information {
+      gap: 56px;
+    }
+  }
+
+  .footer-main {
+    padding: 80px 0px 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px;
+  }
+  .tf-collapse-content {
+    margin-top: 24px;
+}
+}
+.footer-heading-mobie {
+  display: none;
+}
+.icon-box-footer {
+  .icon {
+    padding-right: 12px;
+    margin-right: 12px;
+    border-right: 1px solid $color-13;
+  }
+  .content{
+    .sub a{
+      color: $color-1;
+    }
+  }
+}
+
+/* Widget
+-------------------------------------------------------------- */
+
+/* widget-menu */
+.widget-menu {
+  .title-widget {
+    font-size: 22px;
+    margin-bottom: 28px;
+  }
+
+  .box-menu {
+    li {
+      a {
+        position: relative;
+        color: $color-12;
+        font-size: 16px;
+        line-height: 22px;
+
+        &::before {
+          height: 1px;
+          background: $color-3;
+          bottom: 0;
+          z-index: 1;
+          content: "";
+          position: absolute;
+          left: auto;
+          right: 0;
+          width: 0;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.5s ease;
+          -ms-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          transition: all 0.3s ease;
+        }
+        &:hover:before {
+    width: 100%;
+    left: 0;
+}
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 12px;
+      }
+
+      &:hover {
+        a {
+          @include transition3;
+          color: $color-3;
+        }
+      }
+    }
+  }
+}
+
+.grid-brand-car {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+
+  .box-brand {
+    background: $color-13;
+    border: 1px solid $color-13;
+    padding: 0px 14px 7px 14px;
+    text-align: center;
+
+    img {
+      margin-bottom: -4px;
+    }
+
+    .text {
+      color: $color-12;
+    }
+  }
+}
+
+.widget-menu {
+  .link-btn {
+    margin-top: 26px;
+
+    &:hover,
+    &.active {
+
+      span,
+      i {
+        color: $color-1;
+      }
+
+      svg,
+      path {
+        fill: $color-1;
+        stroke: $color-1;
+      }
+    }
+  }
+}
+
+.footer-bottom {
+  position: relative;
+  padding: 42px 0;
+
+  .menu-footer-bottom {
+    li {
+      a {
+        color: $color-12;
+
+        &:hover {
+          color: $color-3;
+        }
+      }
+
+      &:not(:last-child) {
+        padding-right: 9px;
+        margin-right: 8px;
+        border-right: 1px solid $color-12;
+      }
+    }
+  }
+
+  .coppyright {
+    color: $color-12;
+  }
+
+  .back-top-bottom {
+    float: right;
+    color: $color-12;
+
+    i {
+      color: $color-1;
+      margin-left: 11px;
+    }
+
+    &:hover {
+      color: $color-3;
+    }
+  }
+
+}
+
+.icon-social {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    a {
+    color: $color-1;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.08);
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    @include transition3;
+
+    &:hover {
+      background-color: $color-3;
+      color: $color-1;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &.style1 {
+    a {
+      color: $color-2;
+      border: 1px solid $color-6;
+      border-radius: 0;
+      line-height: 42px;
+
+      &:hover {
+        color: $color-1;
+      }
+    }
+  }
+
+  &.style2 {
+    a {
+      width: 44px;
+      height: 44px;
+      color: $color-2;
+      border-radius: 8px;
+      border: 1px solid $color-6;
+      color: $color-5;
+
+      &:hover {
+        color: $color-1;
+      }
+    }
+  }
+}
+  
