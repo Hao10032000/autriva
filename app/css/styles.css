@@ -5595,6 +5595,7 @@ label input:checked ~ .btn-checkbox:after {
 .content-about-us .btn-wrap .sc-button:last-child {
   border: 1px solid #EDEDED;
   background-color: transparent;
+  padding: 14px 25px;
 }
 .content-about-us .btn-wrap .sc-button:last-child span,
 .content-about-us .btn-wrap .sc-button:last-child i {
@@ -5693,6 +5694,13 @@ label input:checked ~ .btn-checkbox:after {
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
+}
+.listing-recommended .item .content h6 a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 .listing-recommended .item .content h6:hover {
   color: #405FF2;
@@ -6303,11 +6311,11 @@ label input:checked ~ .btn-checkbox:after {
 .login-form .modal-body .button-box a svg {
   margin-right: 10px;
 }
-.login-form .modal-body .texts.line {
+.login-form .modal-body .texts.lines {
   margin-bottom: 29px;
   position: relative;
 }
-.login-form .modal-body .texts.line:before {
+.login-form .modal-body .texts.lines:before {
   width: 38%;
   height: 1px;
   top: 50%;
@@ -6316,7 +6324,7 @@ label input:checked ~ .btn-checkbox:after {
   background: #EDEDED;
   position: absolute;
 }
-.login-form .modal-body .texts.line:after {
+.login-form .modal-body .texts.lines:after {
   width: 38%;
   height: 1px;
   top: 50%;
@@ -7926,7 +7934,7 @@ label input:checked ~ .btn-checkbox:after {
 .slider .slider-item .content .category-list-car {
   gap: 13px;
 }
-.slider .slider-item .content .category-list-car li {
+.slider .slider-item .content .category-list-car li a {
   gap: 6px;
   background: rgba(0, 0, 0, 0.4);
   padding: 8px 24px;
@@ -7934,7 +7942,7 @@ label input:checked ~ .btn-checkbox:after {
   font-size: 14px;
   font-weight: 600;
 }
-.slider .slider-item .content .category-list-car li .icon {
+.slider .slider-item .content .category-list-car li a .icon {
   color: #FFFFFF;
   font-size: 26px;
   display: flex;
@@ -7980,6 +7988,7 @@ label input:checked ~ .btn-checkbox:after {
 }
 .slider.style2.home-4 .content {
   padding: 207px 20px 465px 20px;
+  max-width: 610px;
 }
 .slider.style2.home-4 .content .chat-wrap {
   margin-top: 48px;
@@ -8136,11 +8145,16 @@ label input:checked ~ .btn-checkbox:after {
   padding: 272px 20px 310px 20px;
 }
 .slider.style7 .slider-item .content .heading {
-  max-width: 579px;
+  max-width: 619px;
+}
+.slider.style7 .slider-item .content .heading .luxury {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 24px;
 }
 .slider.style7 .slider-item .content .heading h1 {
   margin-bottom: 13px;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 64px;
 }
 .slider.style7 .slider-item .content .heading p {
@@ -8151,7 +8165,6 @@ label input:checked ~ .btn-checkbox:after {
 }
 .slider.style7 .slider-item .content .heading .chat-wrap .sc-button {
   background-color: #FFFFFF;
-  padding: 14px 24px;
 }
 .slider.style7 .slider-item .content .heading .chat-wrap .sc-button span,
 .slider.style7 .slider-item .content .heading .chat-wrap .sc-button i {
@@ -8159,6 +8172,16 @@ label input:checked ~ .btn-checkbox:after {
 }
 .slider.style7 .slider-item .content .heading .chat-wrap .sc-button:hover span,
 .slider.style7 .slider-item .content .heading .chat-wrap .sc-button:hover i {
+  color: #FFFFFF;
+}
+.slider.style7 .slider-item .content .heading .chat-wrap .sc-button:not(:last-child) {
+  margin-right: 17px;
+}
+.slider.style7 .slider-item .content .heading .chat-wrap .sc-button:first-child {
+  background-color: #405FF2;
+}
+.slider.style7 .slider-item .content .heading .chat-wrap .sc-button:first-child span,
+.slider.style7 .slider-item .content .heading .chat-wrap .sc-button:first-child i {
   color: #FFFFFF;
 }
 .slider.style7 .slider-item .content .po-content-two {
@@ -10120,7 +10143,7 @@ label input:checked ~ .btn-checkbox:after {
   .slider.style8 .slider-item .content .heading h1,
   .slider.style10 .content .heading h1,
   .slider.style11 .content .heading h1 {
-    font-size: 40px;
+    font-size: 42px;
   }
   .slider .slider-item .content .category-list-car {
     gap: 6px;
@@ -10718,6 +10741,9 @@ label input:checked ~ .btn-checkbox:after {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 6px 0px;
   cursor: pointer;
   display: none;
+}
+.btn-siderbar-mobie-filter i {
+  rotate: 180deg;
 }
 .btn-siderbar-mobie-filter:hover {
   background-color: #405FF2;
@@ -13945,7 +13971,6 @@ label input:checked ~ .btn-checkbox:after {
   line-height: 140%;
   padding: 10px 16px;
   border: 1px solid #EDEDED;
-  border-radius: 100px;
   color: #696665;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -13978,7 +14003,6 @@ label input:checked ~ .btn-checkbox:after {
   display: inline-block;
   color: #FFFFFF;
   font-size: 14px;
-  font-weight: 700;
   position: absolute;
   z-index: 1;
   top: 0;
@@ -14004,6 +14028,8 @@ label input:checked ~ .btn-checkbox:after {
   margin-bottom: 16px;
   font-size: 20px;
   line-height: 28.24px;
+}
+.blog-article-item .content h3 a {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -14248,6 +14274,7 @@ label input:checked ~ .btn-checkbox:after {
   border-top: 1px solid #EDEDED;
   border-bottom: 1px solid #EDEDED;
   margin-bottom: 12px;
+  gap: 5px 0px;
 }
 .box-car-list .content .icon-box .icons {
   font-size: 14px;
@@ -14342,7 +14369,7 @@ label input:checked ~ .btn-checkbox:after {
   border: 1px solid #405FF2;
 }
 .box-car-list.style-3 {
-  border: 1px solid transparent !important;
+  border: unset !important;
   box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1019607843);
 }
 .box-car-list.style-3 .content {
@@ -16657,6 +16684,9 @@ label input:checked ~ .btn-checkbox:after {
   .button-swiper.style1 {
     padding-top: 50px;
   }
+  .section-testimonial .button-swiper.style1 {
+    display: none;
+  }
   .section-testimonial .content-wcs {
     padding-top: 80px;
     padding-bottom: 70px;
@@ -16893,6 +16923,16 @@ label input:checked ~ .btn-checkbox:after {
   }
 }
 @media (max-width: 991px) {
+  .modal-content .close {
+    background: #24272C;
+    right: 15px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+  }
+  .login-form .close .icon {
+    font-size: 15px;
+  }
   #goTop {
     bottom: 40px;
     right: 30px;
@@ -17124,14 +17164,12 @@ label input:checked ~ .btn-checkbox:after {
     gap: 10px;
   }
   .listing-recommended .item .image {
-    max-width: 100%;
-    width: 100%;
+    max-width: 90px;
   }
   .listing-recommended .item .image img {
     width: 100%;
   }
-  .profile-contact .btn-contact,
-  .listing-recommended .item {
+  .profile-contact .btn-contact {
     flex-wrap: wrap;
   }
   .widget-listing {
@@ -17477,13 +17515,6 @@ label input:checked ~ .btn-checkbox:after {
   }
   .main-header.style6 .inner-top .header-account.account-right {
     min-width: auto;
-  }
-  .modal-content .close {
-    background: #24272C;
-    right: 15px;
-    top: 15px;
-    width: 40px;
-    height: 40px;
   }
   .modal-body .content,
   .modal-body .images {

@@ -716,6 +716,9 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 6px 0px;
   cursor: pointer;
   display: none;
+  i{
+    rotate: 180deg;
+  }
 
   &:hover {
     background-color: $color-3;

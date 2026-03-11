@@ -295,7 +295,7 @@
       .category-list-car {
         gap: 13px;
 
-        li {
+        li a{
           gap: 6px;
           background: $bg-color5;
           padding: 8px 24px;
@@ -366,6 +366,7 @@
     &.home-4 {
       .content {
         padding: 207px 20px 465px 20px;
+            max-width: 610px;
 
         .chat-wrap {
           margin-top: 48px;
@@ -580,11 +581,16 @@
         padding: 272px 20px 310px 20px;
 
         .heading {
-          max-width: 579px;
+          max-width: 619px;
+           .luxury {
+            text-transform: uppercase;
+            color: $color-1;
+            margin-bottom: 24px;
+          }
 
           h1 {
             margin-bottom: 13px;
-            font-weight: 300;
+            font-weight: 700;
             font-size: 64px;
           }
 
@@ -595,10 +601,8 @@
           .chat-wrap {
             margin-top: 57px;
 
-            .sc-button {
+             .sc-button {
               background-color: $color-1;
-              padding: 14px 24px;
-
 
               span,
               i {
@@ -606,6 +610,19 @@
               }
 
               &:hover {
+
+                span,
+                i {
+                  color: $color-1;
+                }
+              }
+
+              &:not(:last-child) {
+                margin-right: 17px;
+              }
+
+              &:first-child {
+                background-color: $color-3;
 
                 span,
                 i {
@@ -2856,7 +2873,7 @@
   .slider.style8 .slider-item .content .heading h1,
   .slider.style10 .content .heading h1,
   .slider.style11 .content .heading h1 {
-    font-size: 40px;
+    font-size: 42px;
   }
 
   .slider .slider-item .content .category-list-car {
