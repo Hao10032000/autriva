@@ -16969,10 +16969,6 @@ label input:checked ~ .btn-checkbox:after {
     margin-bottom: 20px;
     font-size: 16px;
   }
-  .box-tab {
-    overflow-x: scroll;
-    overflow-y: hidden;
-  }
   .tf-grid-layout.md-col-2.gap-48 {
     gap: 20px;
   }
