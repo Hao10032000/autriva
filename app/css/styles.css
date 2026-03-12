@@ -13544,9 +13544,10 @@ label input:checked ~ .btn-checkbox:after {
   font-size: 18px;
   margin-right: 9px;
 }
-.widget-dealer-contact .map-contact #map-single {
+.widget-dealer-contact .map-contact .map-content {
   height: 190px;
   margin-bottom: 17px;
+  width: 100%;
 }
 
 .widget-categori-car .listing-header {
