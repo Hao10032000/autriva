@@ -6356,10 +6356,12 @@ label input:checked ~ .btn-checkbox:after {
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(12px);
+  border: 1px solid transparent;
 }
 
 .modal-content .close:hover {
   background-color: #FFFFFF;
+  border: 1px solid #405FF2;
 }
 .modal-content .close:hover span {
   color: #405FF2;
@@ -8145,7 +8147,7 @@ label input:checked ~ .btn-checkbox:after {
   padding: 272px 20px 310px 20px;
 }
 .slider.style7 .slider-item .content .heading {
-  max-width: 619px;
+  max-width: 635px;
 }
 .slider.style7 .slider-item .content .heading .luxury {
   text-transform: uppercase;
@@ -13564,6 +13566,9 @@ label input:checked ~ .btn-checkbox:after {
 .widget-categori-car ul li a {
   color: #696665;
 }
+.widget-categori-car ul li a:hover {
+  color: #405FF2;
+}
 
 .widget-dealer-contact .button-form-1 {
   font-size: 16px;
@@ -17353,6 +17358,7 @@ label input:checked ~ .btn-checkbox:after {
   }
   .blog-article-left {
     min-width: 100%;
+    margin-bottom: 30px;
   }
   .blog-wrap {
     flex-direction: column;
@@ -17785,6 +17791,7 @@ label input:checked ~ .btn-checkbox:after {
   }
   .blog-article-item.style3 .content {
     padding-bottom: 0px;
+    padding-top: 0px;
   }
   .partner-item.style-2 {
     padding: 22px 20px 21px 20px;
@@ -18007,6 +18014,12 @@ label input:checked ~ .btn-checkbox:after {
   .header-account .header-search-icon::after,
   .header-account .header-favorite::after {
     left: 25px;
+  }
+}
+@media (max-width: 767px) and (min-width: 575px) {
+  .partners-orbit {
+    margin-top: 40px !important;
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 575px) {

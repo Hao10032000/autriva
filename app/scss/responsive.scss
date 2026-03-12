@@ -1117,6 +1117,7 @@
   }
   .blog-article-left {
     min-width: 100%;
+            margin-bottom: 30px;
   }
 
   .blog-wrap {
@@ -1681,6 +1682,7 @@
 
   .blog-article-item.style3 .content {
     padding-bottom: 0px;
+        padding-top: 0px;
   }
 
   .partner-item.style-2 {
@@ -1971,6 +1973,12 @@
   .header-account .header-favorite::after {
     left: 25px;
   }
+}
+@media (max-width: 767px) and (min-width: 575px){
+  .partners-orbit {
+        margin-top: 40px !important;
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 575px) {

@@ -82,7 +82,7 @@
         '<div class="img-author flex-three">' +
         '<img src="assets/images/author/avt-list10.webp" />' +
         '<div class="content-infor">' +
-        '<span class="fs-14 text-color-2 fw-5">Carus auto</span>' +
+        '<span class="fs-14 text-color-2 fw-5">Autriva auto</span>' +
         '<p class="fs-12 fw-4">44 minutes ago</p>' +
         '</div>' +
         '</div>' +

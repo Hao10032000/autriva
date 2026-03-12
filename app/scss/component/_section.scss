@@ -2988,10 +2988,12 @@
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(12px);
+  border: 1px solid transparent;
 }
 
 .modal-content .close:hover {
   background-color: $color-1;
+  border: 1px solid $color-3;
 
   span {
     color: $color-3;

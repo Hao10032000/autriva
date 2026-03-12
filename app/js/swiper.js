@@ -121,6 +121,8 @@ var mainSlider1 = new Swiper(".mainslider1", {
     disableOnInteraction: false,
   },
   slidesPerView: 1,
+  autoHeight: false,
+  watchSlidesProgress: true,
   speed: 500,
   effect: "fade",
   fadeEffect: { crossFade: true },
@@ -137,6 +139,7 @@ var mainSlider1 = new Swiper(".mainslider1", {
     },
   },
 });
+
 var mainslider2 = new Swiper(".mainslider2", {
   slidesPerView: 1,
   spaceBetween: 0,
