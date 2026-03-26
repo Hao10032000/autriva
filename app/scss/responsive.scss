@@ -406,6 +406,9 @@
 }
 
 @media (max-width: 1080px) {
+  .slider.style1 .content {
+    padding: 180px 36px 300px 36px;
+}
   .section-why-choose-us .content-wcs {
     padding-top: 0px;
 }
@@ -493,9 +496,6 @@
     padding: 0px 0px;
   }
 
-  .blog-article-left {
-    flex-shrink: 2;
-  }
 
   .slider.home2 video {
     height: 850px;
@@ -1709,7 +1709,7 @@
 
   .blog-article-item.style3 .content {
     padding-bottom: 0px;
-        padding-top: 0px;
+        padding-top: 20px;
   }
 
   .partner-item.style-2 {

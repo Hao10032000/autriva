@@ -3129,11 +3129,11 @@
   padding: 24px 31px 13px 33px;
 }
 
-.listing-list-section .box-car-list.style-2 .content .days-box {
-  padding-top: 24px !important;
-  margin-top: 24px !important;
-  border-top: 1px solid #ededed !important;
-}
+// .listing-list-section .box-car-list.style-2 .content .days-box {
+//   padding-top: 24px !important;
+//   margin-top: 24px !important;
+//   border-top: 1px solid #ededed !important;
+// }
 
 .listing-wrap-map {
   .list-car-1.list-car-list-1 {
@@ -3155,8 +3155,7 @@
       gap: 0px;
       flex-direction: column !important;
       width: 100%;
-          display: flex;
-    justify-content: space-between;
+
     }
 
     &.list-car-grid-1 {

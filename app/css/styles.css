@@ -6473,12 +6473,6 @@ label input:checked ~ .btn-checkbox:after {
   padding: 24px 31px 13px 33px;
 }
 
-.listing-list-section .box-car-list.style-2 .content .days-box {
-  padding-top: 24px !important;
-  margin-top: 24px !important;
-  border-top: 1px solid #ededed !important;
-}
-
 .listing-wrap-map .list-car-1.list-car-list-1 .box-car-list:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -6492,8 +6486,6 @@ label input:checked ~ .btn-checkbox:after {
   gap: 0px;
   flex-direction: column !important;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 .listing-wrap-map .list-car-1.list-car-list-1.list-car-grid-1 {
   grid-template-columns: repeat(2, 1fr);
@@ -8659,8 +8651,22 @@ label input:checked ~ .btn-checkbox:after {
   z-index: 12;
 }
 
+.box-tab {
+  overflow-x: auto;
+}
+
+.magin-auto {
+  margin: 0 auto;
+}
+
+.flat-tabs {
+  margin-bottom: 48px;
+  gap: 10px;
+}
 .flat-tabs .tab-title li {
+  max-width: 100%;
   position: relative;
+  width: max-content;
   cursor: pointer;
   min-width: 162px;
   padding: 15px;
@@ -14270,6 +14276,9 @@ label input:checked ~ .btn-checkbox:after {
 }
 .box-car-list .content {
   padding: 19px 14px 22px 16px;
+  flex-direction: column !important;
+  display: flex;
+  justify-content: space-between;
 }
 .box-car-list .content .link-style-1 {
   margin-bottom: 12px;
@@ -16805,6 +16814,9 @@ label input:checked ~ .btn-checkbox:after {
   }
 }
 @media (max-width: 1080px) {
+  .slider.style1 .content {
+    padding: 180px 36px 300px 36px;
+  }
   .section-why-choose-us .content-wcs {
     padding-top: 0px;
   }
@@ -16877,9 +16889,6 @@ label input:checked ~ .btn-checkbox:after {
   }
   .main-header.style5 {
     padding: 0px 0px;
-  }
-  .blog-article-left {
-    flex-shrink: 2;
   }
   .slider.home2 video {
     height: 850px;
@@ -17820,7 +17829,7 @@ label input:checked ~ .btn-checkbox:after {
   }
   .blog-article-item.style3 .content {
     padding-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 20px;
   }
   .partner-item.style-2 {
     padding: 22px 20px 21px 20px;
