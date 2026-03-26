@@ -3155,6 +3155,8 @@
       gap: 0px;
       flex-direction: column !important;
       width: 100%;
+          display: flex;
+    justify-content: space-between;
     }
 
     &.list-car-grid-1 {

@@ -106,7 +106,7 @@
   }
 
   .blog-article-left {
-    min-width: 50%;
+    max-width: 50%;
   }
 
   .why-choose-us-5 .content-wcs {
@@ -121,6 +121,9 @@
 }
 
 @media (max-width: 1320px) {
+  .partner-item.style-2 {
+    padding: 22px 15px 21px 15px;
+}
   .sale-agents-detail.gap-48 {
     gap: 30px;
   }
@@ -403,6 +406,12 @@
 }
 
 @media (max-width: 1080px) {
+  .section-why-choose-us .content-wcs {
+    padding-top: 0px;
+}
+.section-why-choose-us .content-wcs .heading-section p {
+    margin-top: 20px;
+}
   .listing-gallery.style-6 {
     grid-template-columns: 1fr 160px;
   }
@@ -848,7 +857,7 @@
     gap: 30px;
   }
 
-  .flat-tabs .tab-title.style {
+  .flat-tabs .tab-title {
     overflow-x: scroll;
     white-space: nowrap;
   }
@@ -1075,6 +1084,23 @@
 }
 
 @media (max-width: 767px) {
+  .specifications-wrap.style3 .specifications {
+    min-width: 90px !important;
+    min-height: 90px !important;
+    padding: 13px 10px;
+            width: 100%;
+}
+.specifications-wrap.style3 .specifications .specifications-icon {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.specifications-wrap .specifications .specifications-content p {
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+.specifications-wrap .specifications .specifications-content .fs-18 {
+    font-size: 14px;
+}
   .tf-testimonial.style-7 {
     flex-direction: column;
 }
