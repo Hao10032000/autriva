@@ -2644,12 +2644,15 @@
   }
 
   .slider.style1 .content {
-    max-width: 70%;
+    max-width: 100%;
   }
 
   .slider .slider-item .content .category-list-car li {
     padding: 5px 15px;
     font-size: 12px;
+  }
+  .slider.style1 .slider-item .content .category-list-car li {
+    padding: 0px 0px;
   }
 
   .slider.style10 .slider-bottom {
@@ -2729,7 +2732,7 @@
   }
 
   .slider.style1 .content {
-    padding: 200px 15px 640px 15px;
+    padding: 200px 15px 600px 15px !important;
   }
 
   .slider.style2 .content {
