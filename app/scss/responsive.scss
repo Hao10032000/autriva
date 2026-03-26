@@ -858,8 +858,9 @@
   }
 
   .flat-tabs .tab-title {
-    overflow-x: scroll;
-    white-space: nowrap;
+           white-space: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
   }
 
   .blog-article-item.style2 .images {

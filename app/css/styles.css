@@ -17157,8 +17157,9 @@ label input:checked ~ .btn-checkbox:after {
     gap: 30px;
   }
   .flat-tabs .tab-title {
-    overflow-x: scroll;
     white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
   .blog-article-item.style2 .images {
     max-width: 100%;
